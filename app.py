@@ -41,7 +41,6 @@ def predict():
 
 	return render_template("main.html",prediction_text="Penguin Specie is : {}".format(result))
 
-
 if __name__ == "__main__":
 	app.debug=True
 	app.run(host = '0.0.0.0',port =8000,debug=True)
